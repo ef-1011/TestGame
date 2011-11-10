@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/options" android:layout_alignLeft="@+id/options" android:layout_marginTop="28dp" android:id="@+id/credits" android:text="Credits" android:layout_alignRight="@+id/options"></Button>
+    <Button android:layout_height="wrap_content" android:text="Help" android:layout_width="wrap_content" android:id="@+id/help" android:layout_below="@+id/game" android:layout_alignLeft="@+id/game" android:layout_marginTop="24dp" android:layout_alignRight="@+id/game"></Button>
+    <Button android:layout_height="wrap_content" android:text="Options" android:layout_width="wrap_content" android:id="@+id/options" android:layout_centerVertical="true" android:layout_alignLeft="@+id/help" android:layout_alignRight="@+id/help"></Button>
+    <Button android:layout_height="wrap_content" android:text="Start Game" android:layout_width="wrap_content" android:id="@+id/game" android:width="150sp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="62dp"></Button>
+
+</RelativeLayout>

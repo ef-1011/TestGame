@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Game</string>
+    <string name="help">
+    	<element>
+    		<element>
+    				Android applications are composed of one or more
+    			application components (activities, services, content
+    			providers, and broadcast receivers) Each component
+    			performs a different role in the overall application
+    			behavior, and each one can be activated individually
+    			(even by other applications) The manifest file must
+    			declare all components in the application and should
+    			also declare all application requirements, such as the
+    			minimum version of Android required and any hardware
+    			configurations required Non-code application resources
+    			(images, strings, layout files, etc.) should include
+    			alternatives for different device configurations (such
+    			as different strings for different languages and
+    			different layouts for different screen sizes)
+    			 	Android applications are composed of one or more
+    			application components (activities, services, content
+    			providers, and broadcast receivers) Each component
+    			performs a different role in the overall application
+    			behavior, and each one can be activated individually
+    			(even by other applications) The manifest file must
+    			declare all components in the application and should
+    			also declare all application requirements, such as the
+    			minimum version of Android required and any hardware
+    			configurations required Non-code application resources
+    			(images, strings, layout files, etc.) should include
+    			alternatives for different device configurations (such
+    			as different strings for different languages and
+    			different layouts for different screen sizes)
+    		</element></element></string>
+    		<string name="dev">developer Alexander Nalapko</string>
+</resources>
